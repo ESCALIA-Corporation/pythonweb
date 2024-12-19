@@ -1,0 +1,28 @@
+main {
+  margin-top: 70px;
+  align-content: center;
+  text-align: center;
+  height: 650px;
+
+  --s: 15px; /* control the size */
+  --g: repeating-conic-gradient(var(--background) 0 25%, #828a121f 0 50%) 0/;
+
+  background: var(--g) calc(1 * var(--s)) calc(9 * var(--s)),
+    var(--g) calc(2 * var(--s)) calc(8 * var(--s)),
+    var(--g) calc(3 * var(--s)) calc(6 * var(--s)),
+    var(--g) calc(5 * var(--s)) calc(4 * var(--s)),
+    var(--g) calc(7 * var(--s)) calc(2 * var(--s)),
+    var(--g) calc(9 * var(--s)) calc(1 * var(--s));
+
+  background-blend-mode: darken;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--color);
+  border: #828a121f;
+}
+
+.header-link {
+  color: var(--color);
+}
