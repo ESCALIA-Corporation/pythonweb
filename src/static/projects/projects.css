@@ -1,0 +1,33 @@
+body {
+  background-color: var(--background);
+  color: var(--color);
+  border: #828a121f;
+}
+
+.header-link {
+  color: var(--color);
+}
+
+.title {
+  margin-top: 70px;
+  text-align: center;
+  align-content: center;
+  height: 100px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+
+}
+
+@media screen and (min-width: 1400px) {
+    .content
+    {
+      margin: 4% 14%;
+    }
+  }
